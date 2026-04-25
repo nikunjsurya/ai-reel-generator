@@ -20,3 +20,21 @@ Thumbs.db
 # Logs (dynamic run logs)
 run-*.log
 tmp/
+
+# Runtime data produced by the reel pipeline. Recreated on every render;
+# samples/ holds curated reference outputs and IS committed.
+out/
+jobs/
+content/
+public/narration-*.mp3
+public/captions-*.json
+public/broll-*.png
+public/broll-*.jpg
+public/broll-*.jpeg
+public/broll-*.webp
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# Internal notes (session handoffs, loom talking points, stale specs) - not for reviewers
+_internal/
