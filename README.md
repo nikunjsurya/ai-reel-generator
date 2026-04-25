@@ -78,7 +78,7 @@ docker run -d --name n8n \
 
 ## Architecture
 
-![architecture](docs/architecture.excalidraw)
+![architecture](docs/architecture.png)
 
 Three live components:
 
@@ -167,8 +167,8 @@ ai-reel-generator/
 │   └── sfx/               # SFX library: typing, ui, states, transitions, data, cold-open stinger
 ├── samples/               # 6 rendered MP4s (curated reference outputs, see samples/README.md)
 └── docs/
-    ├── architecture.excalidraw      # visual architecture board (9 bands, 60/30/10 colored)
-    ├── architecture_generator.py    # Python generator that produces the .excalidraw
+    ├── architecture.png             # rendered architecture board (open this for the visual)
+    ├── architecture.excalidraw      # editable source for the architecture board (excalidraw.com)
     ├── audit-report.md              # end-to-end verification + 14 edge cases + destructive test + fixes
     ├── cost-latency-measurement.md  # 5 real runs + cost breakdown + scaling projection
     ├── efficiency-notes.md          # where the time + cost goes, tradeoffs
@@ -186,7 +186,8 @@ ai-reel-generator/
 
 ## Full docs index
 
-- [docs/architecture.excalidraw](docs/architecture.excalidraw): visual architecture board, 9 bands, opens in excalidraw.com
+- [docs/architecture.png](docs/architecture.png): rendered architecture board, 9 bands, color-coded by 60/30/10
+- [docs/architecture.excalidraw](docs/architecture.excalidraw): editable source for the architecture board, opens in excalidraw.com
 - [docs/audit-report.md](docs/audit-report.md): end-to-end verification + 14 edge cases + bridge-down destructive test + shipped fixes
 - [docs/cost-latency-measurement.md](docs/cost-latency-measurement.md): 5-run harness results and scaling projection
 - [docs/efficiency-notes.md](docs/efficiency-notes.md): where time + cost goes, tradeoffs
