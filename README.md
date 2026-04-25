@@ -174,8 +174,6 @@ ai-reel-generator/
     ├── efficiency-notes.md          # where the time + cost goes, tradeoffs
     ├── error-handling.md            # 7-class error matrix + honest gaps
     ├── hallucination-defense.md     # 8-pattern framework + applied examples
-    ├── questionnaire.md             # AI Questionnaire responses (Component C)
-    ├── questionnaire-voice.md       # alternate phrasing of the same Q&A in plain prose
     ├── stress-test-matrix.md        # 30+ known edge cases + reviewer gotcha Q&A
     └── template-variety.md          # archetype classifier design rationale
 ```
@@ -184,7 +182,7 @@ ai-reel-generator/
 
 - **Component A** (working build): this repo, including the exported workflow JSONs in [workflows/](workflows/) and six rendered reference reels in [samples/](samples/). Verified by the 5-run measurement in [docs/cost-latency-measurement.md](docs/cost-latency-measurement.md) and the end-to-end audit in [docs/audit-report.md](docs/audit-report.md).
 - **Component B** (Loom 10-15 min): narrated video walkthrough covering what was built, setup walk by workflow, the design decisions, and the honest gaps. Framed around the 60 / 30 / 10 framework above.
-- **Component C** (AI Questionnaire): answered in [docs/questionnaire.md](docs/questionnaire.md) based on what actually shipped.
+- **Component C** (AI Questionnaire): attached separately to the submission email, not included in this repo.
 
 ## Full docs index
 
@@ -194,6 +192,5 @@ ai-reel-generator/
 - [docs/efficiency-notes.md](docs/efficiency-notes.md): where time + cost goes, tradeoffs
 - [docs/error-handling.md](docs/error-handling.md): 7-class error matrix + honest gaps
 - [docs/hallucination-defense.md](docs/hallucination-defense.md): 8-pattern framework
-- [docs/questionnaire.md](docs/questionnaire.md): AI Questionnaire responses
 - [docs/stress-test-matrix.md](docs/stress-test-matrix.md): 30+ known edge cases + reviewer gotcha questions
 - [docs/template-variety.md](docs/template-variety.md): archetype classifier design rationale
